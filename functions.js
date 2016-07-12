@@ -106,9 +106,11 @@ console.log(checkSum());
  *  then prints the result to the console.
  */
 function checkProduct (dog, cat){
-	return dog * cat * dog - cat;}
+	return dog * cat;
+}
 checkProduct();
-console.log(checkProduct());
+var result = checkProduct(product, difference);
+console.log(result);
 
 
 
