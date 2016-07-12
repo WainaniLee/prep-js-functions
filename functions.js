@@ -129,6 +129,20 @@ console.log(result);
  *      addThenSubtract(4, 5, 7); //-> returns 2 because 4 + 5 - 7 = 2
  */
 
+function addThenSubtract (number1,number2,number3){
+	return  (number1 + number2) - number3
+
+}
+addThenSubtract ();
+var result =  addThenSubtract (80, 10, 3);
+console.log(result)
+
+
+
+
+
+
+
 
 /**
  *  #9
