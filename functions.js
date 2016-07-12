@@ -168,6 +168,21 @@ console.log(howMany)
  * Call this function and pass your first and last name into it.
  * Store the return value to a variable named `myFullName`
 
+*/
+
+function createFullName (firstName, lastName){
+	return (firstName + " " + lastName)
+}
+var myFullName = createFullName ("Wainani" , "Texeira")
+
+console.log(myFullName);
+
+
+
+
+
+
+/**
  */
  //function createFullName(firstName,lastName){
  	//var result = "";
@@ -180,6 +195,34 @@ console.log(howMany)
 //console.log(myName);
 //console.log("My neighbor's names is ", neighbor);
 /**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  *  #11
  *  Function - verifyDrinkingAge
  *
