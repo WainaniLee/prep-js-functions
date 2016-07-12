@@ -5,13 +5,15 @@
  *  Declare Two Variables
  *     - `a` random Number value
  *     - `b` random Number value
+
  *
  *  We will be using both of these variables to pass as `parameters` to the
  *  following functions that we will write. Pay close attention to the other
  *  variable names you will create as they will become input to _other_
  *  functions.
  */
-
+var a = 10;
+var b = 2;
 
 /**
  *  #2
@@ -21,6 +23,22 @@
  *  Store this value in a variable named `sum`.
  */
 
+functions add (number1, number2){
+	return number1 + number2;
+}
+add();
+var sum = add(a,b);
+console.log(sum);
+
+
+
+//function add (dog, cat) {
+	return dog + cat ; //return a
+}
+add ();
+var sum = add (a, b); 
+console.log('sum',sum); 
+
 
 /**
  *  #3
@@ -29,6 +47,13 @@
  *  This function returns the result of subtracting `b` from `a`.
  *  Store this value in a variable named `difference`
  */
+function subtract (dog, cat){
+	return dog - cat ;
+}
+
+subtract ();
+var difference = subtract (a, b);
+console.log(difference);
 
 
 /**
@@ -38,6 +63,13 @@
  *  This function returns the result of multiplying `b` by `a`.
  *  Store this value in a variable named `product`
  */
+function multiply (b, a) {
+	return b * a ;
+}
+multiply();
+var product = multiply (b, a);
+console.log(product); 
+
 
 
 /**
@@ -49,7 +81,12 @@
  *  "My football team lost X times this week", where `X` is the
  *  value stored in `difference`.
  */
-
+function checkDifference(loses) {
+var result; 
+result +"My football team lost " +loses+" times this week";
+}
+checkDifference();
+console.log(checkDifference());
 
 /**
  *  #6
@@ -60,8 +97,11 @@
  *  "I CAN ADDZ X NUMBERS"  where `X` is the value
  *  stored in the variable `sum`.
  */
-
-
+function checkSum (dog, cat) {
+	return "I CAN ADDZ "+sum+" NUMBERS";
+}
+checkSum();
+console.log(checkSum());
 /**
  *  #7
  *  Function - checkProduct
@@ -70,15 +110,21 @@
  *  multiplies it by the number stored at `difference` and
  *  then prints the result to the console.
  */
+function checkProduct (dog, cat){
+	return dog * cat * dog - cat;}
+checkProduct();
+console.log(checkProduct());
+
+
 
 
 /**
  *  #8
- *  Function - addThenSubtract
- *
+ *  Function - addThenSubtract *
  *  This function takes three `Number` arguments named by you,
  *  then adds the first two arguments together.
- *  Then with the sum of that operation, subtract
+ *  Th
+ en with the sum of that operation, subtract
  *  the value at the third argument. _This function should
  *  make use of your previous functions_.
  *
@@ -113,9 +159,18 @@
  *
  * Call this function and pass your first and last name into it.
  * Store the return value to a variable named `myFullName`
+
  */
+ //function createFullName(firstName,lastName){
+ 	//var result = "";
+ 	//result = firstName + " " + lastName
+ 	//return result; 
+ //}
 
-
+//var myName = createFullName("Wainani","Texeira")
+//var neighbor = ("Holly","Would")
+//console.log(myName);
+//console.log("My neighbor's names is ", neighbor);
 /**
  *  #11
  *  Function - verifyDrinkingAge
@@ -130,7 +185,16 @@
  *  **Call this function and pass in a number value.
  *  Store the return value to a variable named** `canDrinkBeer`
  */
+//function verifyDrinkingAge(age){
+	//var result; 
 
+	//result = age >+21;
+
+	//return  result;
+//}
+
+ //var canDrinkBeer = verifyDrinkingAge(25)  //invoking
+ //console.log("Can I drink beer? : " + canDrinkBeer);
 
 /**
  *  #12
@@ -141,6 +205,16 @@
  *  "The Party will have tons of Cake!" otherwise this message
  *  should be "This Party will have an open bar".
  */
+//function throwParty (){
+
+	//if (canDrinkBeer) 
+	//{
+    //result= (This party will have an open bar)
+    //console.log ("This Party will have an open bar");
+//} else    
+//}
+//throwParty(canDrinkBeer);
+//console.log (throwParty());
 
 
 /**
@@ -175,4 +249,67 @@
  *  the message will be `"Bacon Pancakes, makin' Bacon Pancakes..."`
  *  othewise the message will be `"Let it go.... LET IT GOOOOOOoOoOoOo..."`
  */
+// function whatISayAtParties(canDrinkBeer,howMany) {
+// 	if (canDrinkBeer){
+// 		console.log("chug");
+// 	}
+// 	whatISayAtParties(canDrinkBeer);
+
+
+// }
+
+
+// Loop syntax 
+//
+
+//for (var i = 0; i <= howMany; i++){
+	//console.log("Hi there!");
+//}
+
+//canDrinkBeer = false;
+
+//function whatISayAtParties(drinkingStatus,times){
+
+//if (drinkingSatus) }
+
+	//for (var i =0; i < times; i++){
+		//console.log ("Chug!");
+	//}
+
+//}else{
+
+	//for(var i = 0; i < times; i++){
+		//console.log("No! I am under 21!!!");
+	//}
+	//}
+//}
+
+//var howMany = 10;
+//canDrinkBeer =true;
+//whatISAyAtParties(canDrinkBeer,howMany);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
