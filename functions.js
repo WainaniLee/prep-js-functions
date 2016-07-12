@@ -138,12 +138,6 @@ var result =  addThenSubtract (80, 10, 3);
 console.log(result)
 
 
-
-
-
-
-
-
 /**
  *  #9
  *  Function - addThenMultiply
@@ -155,8 +149,11 @@ console.log(result)
  *
  *  Store the return of this function to a variable named `howMany`
  */
-
-
+function addThenMultiply (number1,number2,number3){
+	return (number1 + number2) * number3
+}
+var howMany = addThenMultiply (12, 5, 7)
+console.log(howMany)
 /**
  *  #10
  *  Function - createFullName
