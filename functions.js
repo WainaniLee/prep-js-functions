@@ -23,7 +23,7 @@ var b = 2;
  *  Store this value in a variable named `sum`.
  */
 
-functions add (number1, number2){
+function add (number1, number2){
 	return number1 + number2;
 }
 add();
@@ -33,12 +33,6 @@ console.log(sum);
 
 
 //function add (dog, cat) {
-	return dog + cat ; //return a
-}
-add ();
-var sum = add (a, b); 
-console.log('sum',sum); 
-
 
 /**
  *  #3
@@ -48,7 +42,7 @@ console.log('sum',sum);
  *  Store this value in a variable named `difference`
  */
 function subtract (dog, cat){
-	return dog - cat ;
+return dog - cat ;
 }
 
 subtract ();
@@ -82,11 +76,12 @@ console.log(product);
  *  value stored in `difference`.
  */
 function checkDifference(loses) {
-var result; 
-result +"My football team lost " +loses+" times this week";
+ 
+return "My football team lost " +loses+" times this week";
 }
 checkDifference();
-console.log(checkDifference());
+
+console.log(checkDifference(difference));
 
 /**
  *  #6
